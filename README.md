@@ -13,7 +13,8 @@ Then just ask — *"translate report.docx into Korean"*. The agent installs the
 [`laygen`](https://pypi.org/project/laygen/) CLI on first use, extracts the text segments,
 translates them itself, and rebuilds the document. No translation API is involved.
 
-PDF and legacy `.doc` / `.hwp` / `.xls` are not supported.
+PDF, legacy `.doc` / `.hwp` / `.xls` and images are not supported here — convert them
+at [ondevice.neoali.com/laygen](https://ondevice.neoali.com/laygen) first.
 
 ## License
 
